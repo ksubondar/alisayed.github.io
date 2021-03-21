@@ -225,7 +225,8 @@ form {
         width: 100%;
     }
     .submit-button input {
-        padding: 0;
+        padding-left: 10px;
+    padding-right: 70px;
     }
     .socials {
         margin-bottom: calc(29px + (49 - 29) * ((100vw - 320px) / (767 - 320)));

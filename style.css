@@ -633,6 +633,7 @@ textarea {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    cursor:pointer;
 }
 .submit-button input {
   width: 150px;

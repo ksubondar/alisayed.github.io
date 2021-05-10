@@ -107,18 +107,13 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
     .header-menu ul li{
         display: block;
         cursor: pointer;
-        transition: 1.5s;
-        -webkit-transition: 1.5s;
-        -moz-transition: 1.5s;
-        -ms-transition: 1.5s;
-        -o-transition: 1.5s;
+        transition: all 0.3;
+        -webkit-transition: all 0.3;
+        -moz-transition: all 0.3;
+        -ms-transition: all 0.3;
+        -o-transition: all 0.3;
 }
     .header-menu ul li:hover {
-      transform: translateX(60px);
-      -webkit-transform: translateX(60px);
-      -moz-transform: translateX(60px);
-      -ms-transform: translateX(60px);
-      -o-transform: translateX(60px);
       text-shadow: 1px 1px 1px rgb(255, 255, 255);
 }
     .header-menu ul li a {
